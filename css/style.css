@@ -33,8 +33,8 @@ header button {margin-right: 145px; margin-top: 50px; background: rgba(0, 0, 0, 
 .hero {}
 
 .hero .textbox {position: absolute; z-index: 9;
-background: rgba(27, 3, 0, 0.2); left: 50%; width: 600px; padding: 60px 70px;box-sizing: border-box; margin-left: 140px; top: 50%; margin-top: -195px; border-radius: 20px;}
-.hero .textbox .title {text-align: center;font-size: 55px; color: #fff; letter-spacing: -2px; margin-bottom: 24px;}
+background: rgba(27, 3, 0, 0.2); left: 65%; width: 550px; padding: 60px 70px;box-sizing: border-box;  top: 50%; margin-top: -195px; border-radius: 20px;}
+.hero .textbox .title {text-align: center;font-size: 32px; color: #fff; letter-spacing: -2px; margin-bottom: 24px;}
 .hero .textbox p {font-size: 18px; color: #fff; margin-bottom: 36px; line-height: 2;}
 
 .hero .textbox a {margin-left: 150px; background: #C61606; display: inline-block; padding: 10px 20px; border-radius: 20px; color: #fff;}
@@ -58,20 +58,20 @@ background: rgba(27, 3, 0, 0.2); left: 50%; width: 600px; padding: 60px 70px;box
 
 
 
-.sectionbox .s2 {width: 1600px;}
-.sectionbox .s2 .title2 {text-align: center; margin: 100px auto; }
-.sectionbox .s2 .title2 strong {font-size: 40px;}
+.sectionbox .s2 {display: flex;}
+.sectionbox .s2 .mt1 {font-size: 40px; color: #000; display: inline-block;}
+.sectionbox .s2 .left {background: url(../images/section2.png); width: 50%; display: flex; justify-content: center; align-items: center; margin: 100px auto;}
+.sectionbox .s2 .left .textbox {}
+.sectionbox .s2 .left .textbox ul {}
+.sectionbox .s2 .left .textbox ul li {}
+.sectionbox .s2 .left .textbox ul li img {background: #A2BC6A;}
+.sectionbox .s2 .left .textbox ul li strong {color: #fff;}
+.sectionbox .s2 .left .textbox ul li p {color: #fff;}
 
 
-.sectionbox .s2 .s2sos {width: 49%; height: 650px; background: url(../images/section2.png); margin: 100px 160px;border: 1px solid red;}
 
-.sectionbox .s2 .s2sos .vision {border: 1px solid #000; display: flex; flex-direction: column; justify-content: center; align-items: start;}
-.sectionbox .s2 .s2sos .vision li {margin: 50px auto;}
-
-
-
-.sectionbox s3 {}
-.sectionbox s4 {}
+.sectionbox .s3 {}
+.sectionbox .s4 {}
 
 
 
