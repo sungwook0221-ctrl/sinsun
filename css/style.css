@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url(font.css);
+@import url(reset.css);
+
+body {font-family: 'Pretendard';}
+
+
+
+header {height: 100px; display: flex; justify-content:space-between; align-items: center; position: absolute; z-index: 10; width: 100%;}
+header h1 {width: 221px;height: 68px; margin-left: 150px; margin-top: 40px;}
+header h1 a {}
+
+header nav {height: 30px;}
+header nav .gnb {display: flex;}
+header nav .gnb li {font-size: 18px; position: relative;}
+header nav .gnb li a {font-size: 22px; color: #fff; font-weight: 700; display: block; padding: 28px 2vw;}
+
+header nav .gnb li .lnb {background: rgba(0,0,0,0.7); position: absolute; width: 100%; height: 0; 
+overflow: hidden; transition: 0.4s; backdrop-filter: blur(5px);}
+header nav .gnb li .lnb li {text-align: center;}
+header nav .gnb li .lnb li a {color: #fff; padding: 0px 0; line-height: 70px;}
+
+header nav .gnb:hover li .lnb {height: 280px;}
+
+header nav .gnb:hover li:hover {background: #c64932;}
+header nav .gnb:hover li:hover a  {color: #fff;} 
+
+header button {margin-right: 145px; margin-top: 50px; background: rgba(0, 0, 0, 0.5);  color: #fff;;font-weight: 700; font-size: 20px; padding: 10px 48px; border-radius: 10px;}
+
+
+
+.hero {}
+
+.hero .textbox {position: absolute; z-index: 9;
+background: rgba(27, 3, 0, 0.2); left: 50%; width: 600px; padding: 60px 70px;box-sizing: border-box; margin-left: 140px; top: 50%; margin-top: -195px; border-radius: 20px;}
+.hero .textbox .title {text-align: center;font-size: 55px; color: #fff; letter-spacing: -2px; margin-bottom: 24px;}
+.hero .textbox p {font-size: 18px; color: #fff; margin-bottom: 36px; line-height: 2;}
+
+.hero .textbox a {margin-left: 150px; background: #C61606; display: inline-block; padding: 10px 20px; border-radius: 20px; color: #fff;}
+
+
+
+.sectionbox {margin: 0 auto;}
+
+.sectionbox .s1 {display: flex; justify-content: center; border-bottom: 1px solid #E8E8E8; padding-bottom: 100px;}
+.sectionbox .s1 .container {width: 1600px; height: 380px; display: flex; justify-content: center; align-items: center; border-left: 1px solid #B6CF76; border-right: 1px solid #B6CF76; margin-top: 100px;}
+
+.sectionbox .s1 .container figure {margin-top: 50px; 
+}
+.sectionbox .s1 .container figure img {}
+.sectionbox .s1 .container .textbox {}
+.sectionbox .s1 .container .textbox strong {font-size: 40px; font-weight: 700; display: inline-block; margin-bottom: 36px;}
+.sectionbox .s1 .container .textbox p {font-size: 24px; margin-bottom: 50px;}
+.sectionbox .s1 .container .textbox .btn_bk 
+{font-size: 20px; background: #000; border-radius: 10px; color: #fff; padding: 10px 20px;}
+
+
+
+
+.sectionbox .s2 {width: 1600px;}
+.sectionbox .s2 .title2 {text-align: center; margin: 100px auto; }
+.sectionbox .s2 .title2 strong {font-size: 40px;}
+
+
+.sectionbox .s2 .s2sos {width: 49%; height: 650px; background: url(../images/section2.png); margin: 100px 160px;border: 1px solid red;}
+
+.sectionbox .s2 .s2sos .vision {border: 1px solid #000; display: flex; flex-direction: column; justify-content: center; align-items: start;}
+.sectionbox .s2 .s2sos .vision li {margin: 50px auto;}
+
+
+
+.sectionbox s3 {}
+.sectionbox s4 {}
+
+
+
+footer {}
